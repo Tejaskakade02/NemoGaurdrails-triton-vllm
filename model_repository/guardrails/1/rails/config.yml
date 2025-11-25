@@ -1,0 +1,13 @@
+type: "prompt"
+
+system_prompt: |
+  You are a NeMo Guardrails assistant.
+  Follow all rules inside rails.co strictly.
+  {{ rails }}
+
+user_prompt: |
+  {{ user_message }}
+
+bot_prompt: |
+  Generate a safe and correct response.
+
